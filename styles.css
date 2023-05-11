@@ -1,0 +1,49 @@
+@font-face{
+    font-family: my-cool-font;
+    src: url(../fonts/Norse-Bold.otf)
+}
+
+h1{
+    font-family: Norse-Bold, sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.left{
+   background-image: url('./images/yoav-aziz-tKCd-IWc4gI-unsplash.jpg');
+   background-repeat:no-repeat;
+   background-size:cover;
+   width: 35vw;
+   color:white;
+   /*font-family: Norse-Bold, sans-serif;*/
+   
+}
+.right{
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.first{
+    height: 33vh;
+}
+
+.second{
+    height:33vh;
+}
+
+.third{
+    height: 33vh;
+}
