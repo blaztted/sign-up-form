@@ -28,6 +28,8 @@ body{
    background-size:cover;
    width: 35vw;
    color:white;
+   display:flex;
+   flex-direction: column;
    /*font-family: Norse-Bold, sans-serif;*/
    
 }
@@ -130,8 +132,50 @@ label{
 
 }
 
-a{
+.login{
     color:#199209;
     text-decoration: none;
     font-weight: bold;
+}
+
+.a-footer{
+    color:white;
+
+}
+
+p.footer{
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.forImage{
+    height: 90vh;
+    display:flex;
+    align-items: flex-end;
+
+}
+
+.forFooter{
+    height: 60vh;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 35vh;
+}
+
+.semi-transparent{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+    font-family: Norse-Bold, sans-serif;
+   
+}
+
+h1{
+    font-size: 40px;
+
 }
