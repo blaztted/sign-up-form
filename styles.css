@@ -1,18 +1,14 @@
 @font-face{
-    font-family: my-cool-font;
+    font-family: Norse-Bold;
     src: url(../fonts/Norse-Bold.otf)
-}
-
-h1{
-    font-family: Norse-Bold, sans-serif;
 }
 
 body{
     margin:0;
     padding:0;
-    font-family: Norse-Bold, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
-
+ 
 .main{
     display:flex;
     flex-direction: row;
@@ -107,9 +103,9 @@ label{
 }
 
 .btn-green{
-    background-color: #199209;
+    background-color: hsl(29, 88%, 50%);
     color:white;
-    border: 1px solid #199209;
+    border: 1px solid hsl(29, 88%, 50%);;
     border-radius: 10px;
     height: 30px;
     width: 130px;
@@ -133,7 +129,7 @@ label{
 }
 
 .login{
-    color:#199209;
+    color:hsl(29, 88%, 50%);
     text-decoration: none;
     font-weight: bold;
 }
@@ -176,6 +172,7 @@ p.footer{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 70px;
+    font-family: 'Norse', sans-serif;
 
 }
